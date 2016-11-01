@@ -1,12 +1,12 @@
 #=============================================================================
 #
-# Copyright 2007 Adam Wisniewski <adamw@tbcn.ca> 
+# Copyright 2007 Adam Wisniewski <adamw@tbcn.ca>
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may not
 # use this file except in compliance with the License. You may obtain a copy of
-# the License at 
+# the License at
 #
-#  http://www.apache.org/licenses/LICENSE-2.0 
+#  http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
@@ -20,16 +20,16 @@ require 'cgi'
 require 'net/http'
 require 'rexml/document'
 
-require_relative 'web_service'
-require_relative 'toponym'
-require_relative 'toponym_search_result'
-require_relative 'toponym_search_criteria'
-require_relative 'postal_code'
-require_relative 'postal_code_search_criteria'
-require_relative 'timezone'
-require_relative 'country_subdivision'
-require_relative 'wikipedia_article'
-require_relative 'intersection'
+require 'web_service'
+require 'toponym'
+require 'toponym_search_result'
+require 'toponym_search_criteria'
+require 'postal_code'
+require 'postal_code_search_criteria'
+require 'timezone'
+require 'country_subdivision'
+require 'wikipedia_article'
+require 'intersection'
 
 module Geonames
   autoload :Config,  'geonames/config'
@@ -58,4 +58,3 @@ module Geonames
   end
 
 end
-
