@@ -8,7 +8,7 @@ Created by [TouchBase Counsulting](http://www.tbcn.ca/geonames) to support GIS p
 
 Add this to your Gemfile:
 
-    gem 'ruby-geonames'
+    gem 'ruby-geonames', :github => 'i4a/ruby-geonames'
 
 And run:
 
