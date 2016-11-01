@@ -3,3 +3,5 @@ nbproject
 .bundle
 vendor/bundle
 coverage
+.ruby-gemset
+.ruby-version
