@@ -12,4 +12,8 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.markdown"]
   s.required_rubygems_version = ">= 1.3.6"
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec', '~> 2.99'
+  s.add_development_dependency 'fakeweb'
 end
